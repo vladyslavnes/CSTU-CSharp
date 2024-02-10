@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-  static void Main(string[] args)
+  static void Syntax(string[] args)
   {
     Console.WriteLine("How many numbers do you want to enter?");
     if (!int.TryParse(Console.ReadLine(), out int count) || count <= 0)
